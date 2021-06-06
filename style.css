@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #193549;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* INTRODUCTION SECTION */
+
+.introduction__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #172631;
+    border-radius: 0px 0px 50px 50px;
+    background-image: url('./background 2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.intro{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.intro__greet{
+    font-size: clamp(1rem, 1vw, 2rem);
+    color: aqua;
+}
+
+.intro__name{
+    font-weight: 900;
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    color: white;
+}
+
+.intro__description{
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact__button{
+    margin: 10px;
+    color: white;
+    background-color: #172631;
+    padding: 20px;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+.contact__button:hover{
+    background-color: rgb(234, 248, 248);
+    color: #193549;
+}
+
+
+/* ABOUT ME */
+
+.aboutme{
+    /*text-align: center;*/
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* EDUCATION */
+
+.education{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.education h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.edu__info{
+    background-color:#172631;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 90%;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .edu{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.edu:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+
+.edu__info .degree{
+    color: aqua;
+}
+
+.edu__info .marks{
+    color: rgb(141, 141, 141);
+}
+
+.edu__info .inst{
+    color:  rgb(141, 141, 141);
+}
+
+.edu__info:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+/* PROJECTS */
+.projects h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.projects{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.project-card{
+    background-color:#172631;
+    padding: 20px;
+    margin: 10px;
+    width: 85%;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .project-card{
+        width: 75vw;
+    }
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+.cards:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project-card header p{
+    color:  rgb(141, 141, 141);
+}
+
+.project-card header h3{
+    color: aqua;
+}
+
+.project-card footer span{
+    color: rgb(173, 241, 241);
+}
+
+.fas{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.project-card .logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_logo{
+    font-size: 25px;
+}
+
+/* CONTACT */
+.contact{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.fab{
+    font-size: 20px;
+    margin: 10px;
+}
+
+span{
+    color: aqua;
+}
+
+/* FOOTER */
+
+.footer{
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.logo_links{
+    color: white;
+    text-decoration: none;
+}
+
+.logo_links:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    color:  rgb(141, 141, 141);
+}
+
+.heart{
+    color: red;
+}
